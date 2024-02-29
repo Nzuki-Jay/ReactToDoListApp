@@ -1,0 +1,37 @@
+.additemform {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.additeminput {
+    flex: 4;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+}
+
+.additeminput:focus-within {
+    padding-left: 5px;
+}
+
+.submitButton {
+    flex: 1;
+    padding: 8px 15px;
+    background: #6699CC;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s ease;
+    display: flex;
+    gap: 10px;
+}
+
+.submitButton:hover {
+    background: transparent;
+    border: 1px solid #6699CC;
+}

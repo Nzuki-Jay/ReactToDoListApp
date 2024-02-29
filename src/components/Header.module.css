@@ -1,0 +1,12 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #6699CC;
+    padding: 10px 20px;
+}
+
+.heading {
+    text-align: center;
+}

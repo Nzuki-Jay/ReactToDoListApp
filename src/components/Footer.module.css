@@ -1,0 +1,22 @@
+.container {
+    background: #6699CC;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.taskTracker {
+    display: flex;
+    gap: 15px;
+}
+
+.taskTracker h3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
